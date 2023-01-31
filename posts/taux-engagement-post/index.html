@@ -3,19 +3,19 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Emoji Support | Puppet</title>
+<title>Calculer le taux d'engagement | Puppet</title>
 <meta name=author content="Puppet">
-<meta name=description content="Guide to emoji usage in Hugo">
+<meta name=description content="Comment calculer le taux d&rsquo;engagement de posts sur les réseaux sociauxJ&rsquo;ai consulté un article expliquant différentes manières de calculer le taux d&rsquo;engagement d&rsquo;une communauté avec un compte. Il provient du blog Hootsuite que je consulte régulièrement pour avoir des informations/nouvelles liées aux réseaux sociaux et au marketing en général. Je me suis occupée à plusieurs reprises de la gestion des réseaux sociaux de différents comptes et je cherchais toujours à comprendre ce qu&rsquo;il se passait en analysant la &ldquo;réussite&rdquo; ou le &ldquo;flop&rdquo; d&rsquo;une publication.">
 <meta name=keywords content="blog,developer,personal">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Emoji Support">
-<meta name=twitter:description content="Guide to emoji usage in Hugo">
-<meta property="og:title" content="Emoji Support">
-<meta property="og:description" content="Guide to emoji usage in Hugo">
+<meta name=twitter:title content="Calculer le taux d'engagement">
+<meta name=twitter:description content="Comment calculer le taux d&rsquo;engagement de posts sur les réseaux sociauxJ&rsquo;ai consulté un article expliquant différentes manières de calculer le taux d&rsquo;engagement d&rsquo;une communauté avec un compte. Il provient du blog Hootsuite que je consulte régulièrement pour avoir des informations/nouvelles liées aux réseaux sociaux et au marketing en général. Je me suis occupée à plusieurs reprises de la gestion des réseaux sociaux de différents comptes et je cherchais toujours à comprendre ce qu&rsquo;il se passait en analysant la &ldquo;réussite&rdquo; ou le &ldquo;flop&rdquo; d&rsquo;une publication.">
+<meta property="og:title" content="Calculer le taux d'engagement">
+<meta property="og:description" content="Comment calculer le taux d&rsquo;engagement de posts sur les réseaux sociauxJ&rsquo;ai consulté un article expliquant différentes manières de calculer le taux d&rsquo;engagement d&rsquo;une communauté avec un compte. Il provient du blog Hootsuite que je consulte régulièrement pour avoir des informations/nouvelles liées aux réseaux sociaux et au marketing en général. Je me suis occupée à plusieurs reprises de la gestion des réseaux sociaux de différents comptes et je cherchais toujours à comprendre ce qu&rsquo;il se passait en analysant la &ldquo;réussite&rdquo; ou le &ldquo;flop&rdquo; d&rsquo;une publication.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://alinettes.github.io/labveilletech/posts/emoji-support/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2019-03-05T00:00:00+00:00">
-<meta property="article:modified_time" content="2019-03-05T00:00:00+00:00">
+<meta property="og:url" content="https://alinettes.github.io/labveilletech/posts/taux-engagement-post/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-01-30T15:44:31+01:00">
+<meta property="article:modified_time" content="2023-01-30T15:44:31+01:00">
 <link rel=stylesheet href=/labveilletech/css/bootstrap.min.css crossorigin=anonymous>
 <link href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css rel=stylesheet type=text/css>
 <link rel=stylesheet href=/labveilletech/sass/main.css>
@@ -82,13 +82,12 @@
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 <div class=post-heading>
 <div class=tags>
-<a class=tag href=/labveilletech/tags/emoji/ title=emoji>emoji</a>
 </div>
-<h1>Emoji Support</h1>
+<h1>Calculer le taux d'engagement</h1>
 <h2 class=subheading></h2>
 <span class=meta>
-Posted by Hugo Authors
-on Tue, Mar 5, 2019
+Posted by Aline Chacón
+on Mon, Jan 30, 2023
 </span>
 </div>
 </div>
@@ -101,30 +100,78 @@ on Tue, Mar 5, 2019
 <div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
 post-container">
-<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href=https://gohugo.io/functions/emojify/ target=_blank><code>emojify</code></a> function can be called directly in templates or <a href=https://gohugo.io/templates/shortcode-templates/#inline-shortcodes target=_blank>Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href=https://gohugo.io/getting-started/configuration/ target=_blank>configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><span class=nowrap><span class=emojify>🙈</span> <code>🙈</code></span> <span class=nowrap><span class=emojify>🙉</span> <code>🙉</code></span> <span class=nowrap><span class=emojify>🙊</span> <code>🙊</code></span></p>
-<br>
-<p>The <a href=http://www.emoji-cheat-sheet.com/ target=_blank>Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>.emoji {
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2</span>  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3</span>}</code></pre></div>
-<style>.emojify{font-family:Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;font-size:2rem;vertical-align:middle}@media screen and (max-width:650px){.nowrap{display:block;margin:25px 0}}</style>
+<h2 id=comment-calculer-le-taux-dengagement-de-posts-sur-les-réseaux-sociaux>Comment calculer le taux d&rsquo;engagement de posts sur les réseaux sociaux<a class=anchorjs-link href=#comment-calculer-le-taux-dengagement-de-posts-sur-les-r%c3%a9seaux-sociaux></a></h2><p>J&rsquo;ai consulté un article expliquant différentes manières de calculer le taux d&rsquo;engagement d&rsquo;une communauté avec un compte. Il provient du blog Hootsuite que je consulte régulièrement pour avoir des informations/nouvelles liées aux réseaux sociaux et au marketing en général.
+Je me suis occupée à plusieurs reprises de la gestion des réseaux sociaux de différents comptes et je cherchais toujours à comprendre ce qu&rsquo;il se passait en analysant la &ldquo;réussite&rdquo; ou le &ldquo;flop&rdquo; d&rsquo;une publication. Cet article explique divers moyens de calculer le taux d&rsquo;engagement et serai un outil intéressant à réutiliser dans le futur.
+Il présente sept méthodes avec des formules pour calculer le taux d&rsquo;engagement :</p>
+<ol>
+<li>
+<p>Par portée
+Pourcentage de personnes ayant interagit avec le contenu après l&rsquo;avoir vu
+Formule : Total engagements par post/ Portée par publication * 100</p>
+</li>
+<li>
+<p>Par publication
+Pourcentage d&rsquo;abonnés interagissant avec le contenu après
+Formule : Total engagements par post / Total d&rsquo;abonnés * 100</p>
+</li>
+<li>
+<p>Par impression
+Nombre de fois qu&rsquo;un contenu apparaît sur un écran
+Formule : Total engagements par post/ Total des impressions * 100</p>
+</li>
+<li>
+<p>Quotidien
+Fréquence à laquelle vos abonnés interagissent avec votre compte au quotidien.
+Formule : Total engagements par jour / Total d&rsquo;abonnés * 100</p>
+</li>
+<li>
+<p>Par vues
+Pourcentage de personnes ayant interagit avec une vidéo après l&rsquo;avoir vue
+Formule : Total engagements par vidéo / Total des vues * 100</p>
+</li>
+<li>
+<p>Pondéré
+Taux qui donne plus ou moins d’importance à certains facteurs de l’équation
+Ex formule : (commentaires totaux x2) + tous les autres engagements / portée par publication * 100</p>
+</li>
+<li>
+<p>Coût par engagement
+Rentabilité d&rsquo;un post sponsorisé
+Formule : Total montant dépensé / Total des engagements</p>
+</li>
+</ol>
+<p>L&rsquo;article a également fourni un Google Sheet pour faire un calcul automatisé du taux d&rsquo;engagement. Un bon taux d&rsquo;engagements est estimé entre 1 et 5 %, en notant que plus le nombre d&rsquo;abonnés en grand plus il est difficile de s&rsquo;approcher des 5%.
+Dans le futur je vais pouvoir essayer d&rsquo;appliquer ces formules, trouver celles qui me paraissent les plus pertinentes selon mes besoins et avoir des indicateurs plus fiables.</p>
 <hr style=visibility:hidden>
 <ul class=pager>
+<li class=previous>
+<a href=/labveilletech/posts/carte-visite/ data-toggle=tooltip data-placement=top title="Carte de visite">
+Previous<br>
+<span>Carte de visite</span>
+</a>
+</li>
 <li class=next>
-<a href=/labveilletech/posts/math-typesetting/ data-toggle=tooltip data-placement=top title="Math Typesetting">
+<a href=/labveilletech/posts/statistiques-instagram-post/ data-toggle=tooltip data-placement=top title="Statisques d'Instagram">
 Next<br>
-<span>Math Typesetting</span>
+<span>Statisques d'Instagram</span>
 </a>
 </li>
 </ul>
 <hr style=visibility:hidden>
 <div class=giscus id=comments></div>
 <script src=https://giscus.app/client.js data-repo=roninro/hugo-theme-puppet data-repo-id=R_kgDOHuvyhw data-category=General data-category-id=DIC_kwDOHuvyh84CQjDo data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=light_tritanopia data-lang=en crossorigin=anonymous async></script>
+</div>
+<div class="col-lg-2 col-lg-offset-0
+visible-lg-block
+sidebar-container
+catalog-container">
+<div class=side-catalog>
+<hr class="hidden-sm hidden-xs">
+<h5>
+<a class=catalog-toggle href=#>CATALOG</a>
+</h5>
+<ul class=catalog-body></ul>
+</div>
 </div>
 <div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
@@ -133,15 +180,6 @@ sidebar-container">
 <hr class="hidden-sm hidden-xs">
 <h5>FEATURED TAGS</h5>
 <div class=tags>
-<a href=/labveilletech/tags/css/>css</a>
-<a href=/labveilletech/tags/documentation/>documentation</a>
-<a href=/labveilletech/tags/emoji/>emoji</a>
-<a href=/labveilletech/tags/guide/>guide</a>
-<a href=/labveilletech/tags/html/>html</a>
-<a href=/labveilletech/tags/markdown/>markdown</a>
-<a href=/labveilletech/tags/privacy/>privacy</a>
-<a href=/labveilletech/tags/shortcodes/>shortcodes</a>
-<a href=/labveilletech/tags/text/>text</a>
 </div>
 </section>
 <hr>
@@ -245,6 +283,9 @@ Powered by <a href=https://gohugo.io>Hugo</a>
 <script src=/labveilletech/js/hux-blog.min.6436294d8572a421d31642d249910e90a99a4c763ccc93d2702846084e55450a.js></script>
 <script src=/labveilletech/js/simple-jekyll-search.min.js></script>
 <script src=/labveilletech/js/search.min.773292d54021f295a93b234995ff483950bc4ee937315108a1879f75fa76f532.js></script>
+<script type=text/javascript>function generateCatalog(a){_containerSelector='div.post-container';var h=$(_containerSelector),c,d,e,f,g,b;return c=h.find('h1,h2,h3,h4'),$(a).html(''),c.each(function(){d=$(this).prop('tagName').toLowerCase(),g="#"+$(this).prop('id'),e=$(this).text(),b=$('<a href="'+g+'" rel="nofollow">'+e+'</a>'),f=$('<li class="'+d+'_nav"></li>').append(b),$(a).append(f)}),!0}generateCatalog(".catalog-body"),$(".catalog-toggle").click(function(a){a.preventDefault(),$('.side-catalog').toggleClass("fold")})</script>
+<script type=text/javascript src=/labveilletech/js/jquery.nav.min.bd0fbd5f2749da9d631c3438dac03c1bcee6f275f5f3eec79592e0f512284470.js></script>
+<script>$(document).ready(function(){$('.catalog-body').onePageNav({currentClass:"active",changeHash:!1,easing:"swing",filter:"",scrollSpeed:700,scrollOffset:0,scrollThreshold:.2,begin:null,end:null,scrollChange:null,padding:80})})</script>
 <script src=/labveilletech/zoomjs/zoom.min.js></script>
 </body>
 </html>
