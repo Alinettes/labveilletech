@@ -1,25 +1,12 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+date = "2023-01-12"
+aliases = ["about-us", "about-aline", "contact"]
+author = "Aline Chacón"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Je me présente : je m'appelle Aline Chacón, j'ai 26 ans et je suis  en troisième année d'Ingénierie des médias à la HEIG-VD à Yverdon. J'ai des origines suisses et chiliennes d'où mon nom de famille à une assonance hispanique. De puis que je suis jeune, j'ai toujours pratiqué du sport et plus particulièrement du volleyball depuis mes 10 ans. C'est un hobby qui a pris une place conséquente dans vie que ce soit par le temps qu'il me prend, l'investissement mais également pour mon développement personnel. En grandissant, j'ai développé de l'attrait pour le domaine du marketing et plus précisément sur le marketing digital depuis mes études à la HEIG-VD. J'apprécie le côté créatif de ce domaine mais également le côté analytique. 
 
-Hugo makes use of a variety of open source projects including:
+J'ai eu l'occasion de reprendre les réseaux sociaux de mon club il y a quelques années et ensuite de devenir responsable communication. Ceci a été ma première expérience qui mélange deux de mes passions. Ceci m'a inspirée et donné envie de poursuivre sur cette voir dans le futur en imaginant travailler dans le département de communication ou marketing d'une fédération sportive telle que la FIVB par exemple. 
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Mais avant de me lancer dans ce projet je souhaiterai travailler dans d'autres entreprises, si possible de plus ou moins grandes structures pour découvrir différentes méthodes de travail et d'environnements.
